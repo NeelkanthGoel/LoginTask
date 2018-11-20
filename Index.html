@@ -1,0 +1,28 @@
+<!doctype>
+<html>
+	<head>
+		<meta name=viewport content="width=device-width,initial-scale=1.0">
+		<meta name=viewport content="height=device-height,initial-scale=1.0">
+		<title>Login User</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+		
+		<script src="app.js"></script>
+		<script src="CTRL_main.js"></script>
+		<script src="./Controllers/CTRL_login.js"></script>
+		<script src="./Directives/DRCTV_header.js"></script>
+		<script src="./Directives/DRCTV_footer.js"></script>
+		<script src="./Services/SRVC_storeData.js"></script>
+		<script src="./Services/SRVC_validator.js"></script>
+		<script src="./Controllers/CTRL_detailUser.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="./Theme/mystyle.css">
+		
+	</head>
+	<body class='completeBody' ng-app='mainModule' ng-controller='mainController'>
+			<header class='topHeader flexbox' login-header></header>
+			<main class='diffView flexbox' ng-view></main>
+			<footer class='bottomFooter flexbox' login-footer></footer>
+	</body>
+</html>

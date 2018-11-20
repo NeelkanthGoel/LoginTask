@@ -1,0 +1,119 @@
+
+.completeBody{
+	background-color: #3f51b5f0;
+    display: grid;
+    grid-template-columns: 4% 92% 4%;
+    grid-template-rows: 16% auto auto;
+}
+
+.topHeader{
+	grid-column:2/3;
+	grid-row:1/2;
+}
+
+.diffView{
+	grid-column:2/3;
+	grid-row:2/3;
+}
+
+.bottomFooter{
+	grid-column:2/3;
+	grid-row:3/4;
+}
+
+.Welcome{
+	text-align: center;
+    font-size: 39px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.diffView{
+	border: 1px solid white;
+    background-color: #6f6fd6;
+    border-radius: 84px;
+ }
+ 
+ .loginForm{
+ width:100%
+ }
+ 
+ .boxForm{
+ width: 40%;
+ margin: auto;
+ }
+
+.outputForm{
+ width: 80%;
+ margin: auto;
+ }
+ 
+.log{
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.selectOption{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.inputField{
+    margin-top: 5%;
+    text-align: center
+}
+
+.outputField{
+	 margin-top: 2%;
+    text-align: center
+}
+
+.inputdata{
+    width: 65%;
+    padding: 1%;
+    font-family: sans-serif;
+}
+
+.inputSelect{
+	width: 25%;
+    padding: 0.7%;
+    font-family: sans-serif;
+}
+
+.submitbtn{
+	background-color:#3f51b5f0;
+	border:none;
+	padding:1%;
+}    
+
+.cancelbtn{
+	background-color:white;
+	border:none;
+	padding:1%;
+}
+
+.submit{
+	color:white;
+	font-family: sans-serif;
+}
+
+.clear{
+	color:#3f51b5f0;
+	font-family: sans-serif;
+}
+
+.invalidPass{
+	text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: red;
+    margin-top:1%
+}
+.flexbox{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
